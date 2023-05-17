@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mas</title>
+    <style type="text/css">
+        body{
+            background-color: #56f2be;
+            color: rgb(243, 72, 101);
+            font-size: 50px;
+        }
+    </style>
+</head>
+<body>
+ <script type="text/javascript">
+    let compliments=["smart","clever","genius","adorable","cute","gorgeous","kind","polite","hardworking","talanted","generous"]
+    let animals=["cat","dog"]
+    for(let i=1;i<10;i++){
+        let rand1=Math.floor(Math.random()*compliments.length);
+        let rand2=Math.floor(Math.random()*animals.length);
+        document.write("You are so "+compliments[rand1]+" as "+animals[rand2]+"!"+"<br>")
+    }
+ </script>   
+</body>
+</html>

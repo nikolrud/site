@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Money</title>
+</head>
+<body>
+    <script>
+        let money = +prompt('Яку суму хочете зняти','');
+        if (money < 50 || money > 3000) {
+            alert( 'На жаль, ви можете зняти гроші на суму від 50 грн, до 3000 грн.');
+        }else{
+            alert( `Заберіть кошти у сумі ${money}.`)
+        }
+    </script>
+</body>
+</html>

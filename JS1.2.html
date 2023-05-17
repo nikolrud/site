@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS1.2</title>
+   <style>
+    body{
+        background-color: rgb(65, 216, 240);
+        color: palevioletred;
+        font-size: 50px;
+    }
+   </style>
+</head>
+<body>
+  <script>
+let a=+prompt("Введіть сторону a трикутника",3), b=+prompt("Введіть сторону b трикутника",4), c=+prompt("Введіть сторону c трикутника",5);
+
+let P=a+b+c;
+let p=(a+b+c)/2;
+let S=Math.sqrt(p*(p-a)*(p-b)*(p-c));
+alert(S)
+if(S>0){
+document.writeln(`Периметр трикутника зі сторонами a=${a}, b=${b}, c=${c} дорівнює ${P}.`+"<br>")
+document.writeln(`Півпериметр трикутника зі сторонами a=${a}, b=${b}, c=${c} дорівнює ${p}.`+"<br>")
+document.writeln(`Площа трикутника зі сторонами a=${a}, b=${b}, c=${c} дорівнює ${S}.`+"<br>")
+}else{
+  document.write("Трикутника не існує")
+}
+</script>
+</body>
+</html>

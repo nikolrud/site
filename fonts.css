@@ -1,0 +1,19 @@
+body{
+	background-color: lightblue;
+}
+p{
+	font-size: 50px;
+
+}
+.first{
+	font-family: 'PT Sans Narrow', sans-serif;
+	color: hotpink;
+}
+.second{
+	font-family: 'Cormorant Garamond', serif;
+	color: deeppink;
+}
+.third{
+	font-family: 'Shantell Sans', cursive;
+	color: lightpink;
+}

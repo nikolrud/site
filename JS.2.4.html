@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS</title>
+</head>
+<body>
+    <script>
+        let counter=0;
+        let numUser;
+        let numX=90;
+        do { numUser = prompt("вгадайте число выд 0 до 100", 0);
+    counter++
+    if (numUser===null) {
+        alert("Ми чекали від Вас число");
+    }else if(+numUser<numX){
+        alert("Ваше число менше");
+    }   else if (+numUser>numX){
+        alert ("ваше число більше");
+    } else if (numUser==numX){
+        alert("ура! Вгадали! "+numX+"за спроб: " + counter);}
+        else{
+            alert("Ви ввели не число")
+        }
+    }while ( numUser != numX && numUser != null);
+  </script>
+</body>
+</html>
